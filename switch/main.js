@@ -16,10 +16,9 @@ document.getElementById('button').onclick = function() {
     style.setAttribute('id', 'buttonstyle');
 
     style.innerHTML = `a:before {
-      transform: translateX(0px);
+      transform: translateX(-2px);
     }
     a:after {
-      animation: move ease 0.2s;
       transform: translateX(78px);
       box-shadow: -4px 0 6px #ababab;
     }

@@ -50,14 +50,14 @@ a {
 a:before {
   content: '';
   height: 68px;
-  width: 148px;
+  width: 152px;
   background-color: #5af45a;
   border-radius: 34px;
   position: absolute;
   top: 0;
-  left: 0;
-  transform: translateX(-82px);
-  transition: all ease .18s;
+  left: -4px;
+  transform: translateX(-80px);
+  transition: all 200ms cubic-bezier(.18,.51,.61,1.35);
   z-index: 100;
 }
 
@@ -70,17 +70,9 @@ a:after {
   top: 0;
   left: 0;
   border-radius: 34px;
-  transition: transform ease .2s;
+  transition: transform 200ms cubic-bezier(.18,.51,.61,1.35);
   box-shadow: -2px 0 10px #898989;
   z-index: 100;
-}
-
-@keyframes move {
-  0% {}
-
-  100% {
-    transform: translateX(80px);
-  }
 }
 
 @keyframes light {
