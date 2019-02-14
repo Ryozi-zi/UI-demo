@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+}
+
+#background {
+  height: 100vh;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: stretch;
+  background-color: #282828;
+  transition: all ease .5s;
+  flex-wrap: wrap;
+}
